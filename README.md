@@ -70,3 +70,9 @@ callbackComplete
 	Parameter(s): string error
 	Called when program is finished, or an error has been encountered if returnOnError is true
 ```
+
+## License
+[MIT](LICENSE)
+
+## Contribute
+If you have any ideas or see any issues feel free to start a discussion at the issues section.
