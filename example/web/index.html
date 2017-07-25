@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>brainfuck.js example</title>
+		
+		<script type="text/javascript" src="../../libs/brainfuck.js"></script>
+		<script>
+			let output = "";
+			brainfuck(
+				{
+					returnOnError: false,
+					callbackInput: function(callback) {
+						callback(0);
+					},
+					callbackOutput: function(value) {
+						output += value;
+					},
+					callbackComplete: function(error) {
+						if (error) {
+							console.log(error);
+						}
+						console.log(output);
+					}
+				});
+			brainfuck.run("++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.");
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

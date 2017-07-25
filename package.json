@@ -1,0 +1,43 @@
+{
+	"name": "mindfuck",
+	"version": "0.0.0",
+	"description": "Brainfuck interpreter library, node.js module, and command-line tool",
+	"keywords": [
+		"mindfuck",
+		"brainfuck",
+		"interpreter",
+		"command-line tool",
+		"web"
+	],
+	"tags": [
+		"mindfuck",
+		"brainfuck",
+		"interpreter",
+		"command-line tool",
+		"web"
+	],
+	"author": "Ron Dekker",
+	"license": "MIT",
+	"homepage": "https://github.com/RedKenrok/mindfuck",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RedKenrok/mindfuck"
+	},
+	"bugs": {
+		"url": "https://github.com/RedKenrok/mindfuck/issues"
+	},
+	"engines": {
+		"node": "*"
+	},
+	"dependencies": {
+		"minimist": "1.x"
+	},
+	"main": "index.js",
+	"directories": {
+		"lib": "./lib",
+		"example": "./example"
+	},
+	"bin": {
+		"mindfuck": "index.js"
+	}
+}
