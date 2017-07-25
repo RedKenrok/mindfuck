@@ -37,7 +37,7 @@ Options:
 ```
 
 ## Web
-1. Copy the [brainfuck.js](libs/brainfuck.js) file from the [libs](libs/) folder
+1. Copy the [brainfuck.js](lib/brainfuck.js) file from the [lib](lib/) folder
 2. See the [Library section](#Library) for futher usage
 3. See the example in the [example folder](example/)
 
