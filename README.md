@@ -37,9 +37,9 @@ Options:
 ```
 
 ## Web
-1. Copy the [brainfuck.js](https://github.com/RedKenrok/brainfuck.js/tree/master/libs/mindfuck) file from the [libs](https://github.com/RedKenrok/mindfuck/tree/master/libs) folder
+1. Copy the [brainfuck.js](libs/brainfuck.js) file from the [libs](libs/) folder
 2. See the [Library section](#Library) for futher usage
-3. See the example in the [example folder](https://github.com/RedKenrok/brainfuck.js/tree/master/example/web)
+3. See the example in the [example folder](example/)
 
 ## Library
 ### Functions
