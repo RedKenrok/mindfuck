@@ -75,15 +75,15 @@ brainfuck.command = function(args) {
 	if (args.hasOwnProperty('m')) {
 		options.memoryLength = args.m;
 	}
-	
+	// Load options in
 	brainfuck(options);
 	
+	// Code
 	if (args.hasOwnProperty('c')) {
 		brainfuck.run(args.c);
 	}
-	
 	// Path
-	if (args.hasOwnProperty('p')) {
+	else if (args.hasOwnProperty('p')) {
 		// Directory to build from exists.
 		if (!fileSystem.existsSync(args.p)) {
 			console.error('Invalid directory path, please make sure the file exists');
