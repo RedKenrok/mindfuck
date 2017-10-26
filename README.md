@@ -72,7 +72,7 @@ callbackComplete
 ```
 
 ## License
-[MIT](LICENSE)
+[MIT license](LICENSE)
 
 ## Contribute
 If you have any ideas or see any issues feel free to start a discussion at the issues section.
