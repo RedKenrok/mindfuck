@@ -1,6 +1,6 @@
 {
 	"name": "mindfuck",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Brainfuck interpreter library, node.js module, and command-line tool",
 	"keywords": [
 		"mindfuck",
